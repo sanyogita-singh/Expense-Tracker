@@ -1,0 +1,29 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Test and coverage artifacts
+.coverage
+htmlcov/
+.pytest_cache/
+
+# SQLite runtime databases
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
